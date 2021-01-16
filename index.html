@@ -124,13 +124,15 @@ Some toppings that are good on piazza are...
 </textarea>
  <br>
 <label for="color-choice">Choose your favorite primary color:</label>
-<input list="colors" name="color-choice" />
-<datalist>
- <option value="Red">
- <option value="Blue">
+<input list="colors" id="color-choice" name="color-choice" />
+<datalist id="colors">
+    <option value="Red">
+    <option value="Blue">
+    <option value="Green">
+</datalist>
 <br>
  <label for="savory|sweet">Choose savory or sweet:</label>
-<select name="savory|sweet">
+<select name="savory|sweet" id="savory|sweet">
  <option value= " ">--Please choose an option--
  </option>
  <option value="savory">savory</option>
