@@ -159,14 +159,14 @@ Some toppings that are good on piazza are...
  <h4>
  Forms
  </h4>
- <form action="color" method="get">
- <div>
- <label for="Color">Enter your favorite Color: </label>
- <input type="text" required>
+ <form action="Birth-Year" method="get" class="Birth-Year">
+ <div class="Birth-Year">
+ <label for="Birth-Year">Enter your birthyear: </label>
+ <input type="text" name="Birth-Year" id="Birth-Year"required>
  </div>
  </form>
  <label for="year">What year are you?</label>
- <select>
+ <select name="year" id="year">
  <optgroup label ="year">
  <option>1st</option>
  <option>2nd</option>
@@ -177,11 +177,11 @@ Some toppings that are good on piazza are...
  <form>
  <fieldset>
  <legend>Choose your favorite subject</legend>
- <input type="radio" name="subject">
+ <input type="radio" id="Math" ="subject">
  <label for="Math">Math</label><br/>
- <input type="radio" name="subject">
+ <input type="radio" id="English" name="subject">
  <label for="English">English</label><br/>
- <input type="radio" name="subject">
+ <input type="radio" id="Science" name="subject">
  <label for="Science">Science</label>
  </fieldset>
 </form>
