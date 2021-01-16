@@ -96,25 +96,25 @@ class FirstCode {
  <p>
  Some Different Input Types
 </p>
-<input type="button" name="buttons" value="button">
+<input type="button" name="buttons" id="buttons value="button">
  <label for="buttons">button</label><br/>
-<input type="checkbox" name="checkboxs" value="checkbox">
+<input type="checkbox" name="checkboxs" id="checkbox" value="checkbox">
  <label for="checkboxs">checkbox</label><br/>
-<input type="color" name="colors">
+<input type="color" name="colors" id="colors">
  <label for="colors">color</label><br/>
-<input type="date" name="dates">
+<input type="date" name="dates" id="dates">
  <label for="dates">date</label><br/>
-<input type="datetime-local" name="datetime-locals">
+<input type="datetime-local" name="datetime-locals" id="datetime-locals">
  <label for="datetime-locals">datetime-local</label><br/>
-<input type="email" name="emails" value="email">
+<input type="email" name="emails" id="emails" value="email">
  <label for="emails">email</label><br/>
-<input type="time" name="times">
+<input type="time" name="times" id="times">
  <label for="times">time</label><br/>
-<input type="month" name="months">
+<input type="month" name="months" id="months">
  <label for="months">month</label><br/>
-<input type="number" name="numbers">
+<input type="number" name="numbers" id="numbers">
  <label for="numbers">number</label><br/>
-<input type="reset" name="resets" value="reset">
+<input type="reset" name="resets" id="resets" value="reset">
  <label for="resets">reset</label><br/>
 <br>
  <label for="pizza">Tell us your favorite toppings:</label>
@@ -123,15 +123,19 @@ class FirstCode {
 Some toppings that are good on piazza are...
 </textarea>
  <br>
+<label for="color-choice">Choose your favorite primary color:</label>
+<input list="colors" name="color-choice" />
+<datalist>
+ <option value="Red">
+ <option value="Blue">
+<br>
  <label for="savory|sweet">Choose savory or sweet:</label>
-<select name="savory|sweet" id="savory|sweet">
-<datalist id ="savory|sweet">
+<select name="savory|sweet">
  <option value= " ">--Please choose an option--
  </option>
  <option value="savory">savory</option>
  <option value="sweet">sweet</option>
  </select>
-</datalist>
  <p>The first poem I could remember:</p>
  <p>
  Roses are red<br>
@@ -180,8 +184,9 @@ Some toppings that are good on piazza are...
  </fieldset>
 </form>
  <br>
-<caption>Some information about me in a table</caption>
-<table style="width:100%">
+
+<table>
+ <caption>Some information about me in a table</caption>
   <tr>
     <th>Name</th>
     <th>Age</th>
