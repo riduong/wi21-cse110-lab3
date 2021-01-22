@@ -2,8 +2,6 @@
 .name {
     font-size:1.1em;
     color:rgb(8, 8, 134);
-
-.name {
 }
 /* ID Selector */
 #GetToKnow {
@@ -30,11 +28,11 @@ header:hover {
   }
 /*Selector List*/
 h2, h3, h4, h5, h6 {
-
+     color:cornflowerblue; 
 }
 /* Descendant Combinator */
 div header {
-
+    text-indent: 2%;
 }
 /* Child Combinator */
 table>caption {
