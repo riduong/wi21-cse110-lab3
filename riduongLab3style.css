@@ -1,47 +1,56 @@
+/* Class Selector */
 .name {
-    color:darkblue;
+    font-size:1.1em;
+    color:rgb(8, 8, 134);
 }
-
+/* ID Selector */
 #GetToKnow {
-    background-color:cyan
+    font-size:5ch;
+    background-color:hsl(180,100%,50%)
 }
-
+/* Universal Selector */
 * {
     margin:10;
 }
-
+/* Element Selector */
 h1 {
-    color:rgb(64, 177, 222)
+    color:rgba(64, 177, 222,.7)
 }
-
+/* Attribute Selector */
 [title~="Pizza"] {
-    border:3px solid blue;
+    border:3px solid #0000FF;
+    border-radius: 20px;
 }
 
+/* Pseudo-Class Selector */
 header:hover {
-    background-color:cadetblue;
+    background-color:hsla(190,25%,50%,.9)
   }
-
+/*Selector List*/
 h2, h3, h4, h5, h6 {
      color:cornflowerblue; 
 }
-
+/* Descendant Combinator */
 div header {
     text-indent: 2%;
 }
-
+/* Child Combinator */
 table>caption {
     color:darkgreen
 }
-
+/* General Sibling Combinator */
 p~label{
+    font-size:110%;
     color:green;
 }
-
-br+img {
-    border:3px solid blue;
+source~img {
+    border:1mm solid #0000FF;
 }
-
+/* Adjacent Sibling Combinator */
+br+img {
+    border:3pt solid #00F;
+}
+/* Combining Two Selector */
 #FORM .Birth-Year {
     color:blue;
 }
