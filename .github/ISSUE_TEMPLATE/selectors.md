@@ -2,7 +2,7 @@
 name: Selectors
 about: Need to add selectors
 title: ''
-labels: enhancement, ToDo
+labels: ToDo, enhancement
 assignees: riduong
 
 ---
