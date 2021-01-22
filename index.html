@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+ <style>
+   /*Box Model: Margin-:Long, Padding-Long*/
+   aside{
+    width: 30%;
+    margin: 0px 50px 0px 50px;
+    padding: 0px 0px 0px 5px;
+    float: right;
+    font-style: italic;
+    background-color: grey;
+   }
+ </style>
  <title>Richard Duong's CSE 110 Lab 2</title>
  <meta charset="UTF-8">
  <meta name ="author" content="Richard Duong">
@@ -16,9 +27,9 @@
  CSE 100 Lab 2
  </h1>
  <div>
- <header>Written by Richard Duong</header>
+ <header>Written by <span style=color:rgb(8,8,134)>Richard Duong</span></header>
  </div>
- <h2>
+ <h2 class = "Intro">
  Introduction
  </h2>
  <hr>
@@ -56,7 +67,12 @@
  <h3>
  Hobbies
  </h3>
-    
+
+ <aside>
+  <p>Minecraft was created in 2009 and was founded by Markus Persson. It was founded under Mojang Specifications. <a href="https://www.minecraft.net/en-us/">The link to the minecraft website</a>
+  </p>
+  </aside>
+
 <ul>
  <li><b>Hiking</b></li>
  <li><b>Running</b>
@@ -71,10 +87,6 @@
   </ul>
  </li>
  </ul>
- <aside>
- <p>Minecraft was created in 2009 and was founded by Markus Persson. It was founded under Mojang Specifications. <a href="https://www.minecraft.net/en-us/">The link to the minecraft website</a>
- </p>
- </aside>
  
  <h3>Favorite Food</h3>
  <figure>
@@ -116,7 +128,7 @@ class FirstCode {
 }
  </pre>
   <p><b>How to add elements into an <i>ArrayList</i></b></p>
- <p>We can use the method <code>add()</code> to add elements to an <i>ArrayList</i></p>
+ <p class = "add_Method">We can use the method <code>add()</code> to add elements to an <i>ArrayList</i></p>
  <p><b>Some Different Input Types for HTML</b></p>
 <input type="button" name="buttons" value="button">
  <label>button</label><br/>
@@ -144,12 +156,15 @@ class FirstCode {
  <h4>
  Random Content
  </h4>
-      <svg width="200" height="200">
+ 
+<div class = "Box-Circle">
+<svg width="200" height="200">
 <circle cx="100" cy="100" r="10" fill="blue" ></circle>
 </svg>
 <svg width="200" height="200">
 <circle cx="100" cy="100" r="50" fill="green"></circle></svg><br>
-<p>How I view my IQ (blue) is vs other people's IQ (green) </p>
+</div>
+<p class = "IQ">How I view my IQ (blue) is vs other people's IQ (green) </p>
 	 
  </section>
 <p><b>A Funny Clip</b></p>
@@ -224,7 +239,7 @@ My favorite pizza toppings are...
  Subscribe
 </button>
  <footer>
- <p> End of Website </p>
+ <p class ="End"> End of Website </p>
 </footer>
 </body>
 </html>
