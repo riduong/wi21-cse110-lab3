@@ -1,0 +1,47 @@
+.name {
+    color:darkblue;
+}
+
+#GetToKnow {
+    background-color:cyan
+}
+
+* {
+    margin:10;
+}
+
+h1 {
+    color:rgb(64, 177, 222)
+}
+
+[title~="Pizza"] {
+    border:3px solid blue;
+}
+
+header:hover {
+    background-color:cadetblue;
+  }
+
+h2, h3, h4, h5, h6 {
+     color:cornflowerblue; 
+}
+
+div header {
+    text-indent: 2%;
+}
+
+table>caption {
+    color:darkgreen
+}
+
+p~label{
+    color:green;
+}
+
+br+img {
+    border:3px solid blue;
+}
+
+#FORM .Birth-Year {
+    color:blue;
+}

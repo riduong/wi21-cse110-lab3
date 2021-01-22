@@ -4,9 +4,9 @@
  <title>Richard Duong's CSE 110 Lab 2</title>
  <meta charset="UTF-8">
  <meta name ="author" content="Richard Duong">
- <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="riduongLab3style.css">
  </head>
-  <body>  
+  <body>
  <nav>
  <a href="https://github.com/riduong?tab=repositories">My Github Repo</a><br>
  <a href="https://canvas.ucsd.edu/courses/21783">CSE110 Canvas Link</a>
@@ -97,8 +97,6 @@
  <li><b>Pizza</b><br>
  <iframe
  title="Pizza"
- width="300"
- height="200"
  src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-homemade-pizza-horizontal-1542312378.png?crop=1.00xw:1.00xh;0,0&resize=480:*" >
  </iframe>
  </li>
@@ -163,16 +161,16 @@ class FirstCode {
  A random canvas that doesn't work yet since we can't use JavaScript or CSS
 </canvas>
     
-<form> 
+<form id = "FORM"> 
 <fieldset>
- <legend>Some questions to get to know you</legend>
+ <legend id= "GetToKnow">Some questions to get to know you</legend>
  <label><strong>What is your favorite subject?</strong></label><br>
- <input type="radio" id="Maths" name="subject">
- <label for="Maths">Math</label><br/>
- <input type="radio" id="English" name="subject">
- <label for="English">English</label><br/>
- <input type="radio" id="Science" name="subject">
- <label for="Science">Science</label> <br>
+ <input type="radio" name="subject">
+ <label>Math</label><br/>
+ <input type="radio" name="subject">
+ <label>English</label><br/>
+ <input type="radio" name= "subject">
+ <label>Science</label> <br>
    
  <label for="year">What year are you?</label>
  <select name="year" id="year">
