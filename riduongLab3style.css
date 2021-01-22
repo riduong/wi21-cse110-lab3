@@ -3,10 +3,31 @@
     font-size:1.1em;
     color:rgb(8, 8, 134);
 }
+/* Box Model : Margin-Auto, Padding-Auto,Width-set */
+.Box-Circle {
+    width:500px;
+    border: 15px solid grey;
+    padding: 50px;
+    margin: 20;
+}
+/*Box Model: Margin-Short, Padding-Short, Width/Height-set*/
+.IQ {
+    margin:20px 125px;
+    padding:5px 5px;
+    width:500px;
+    height:25px;
+}
+.add_Method {
+    display:inline-block;
+}
+.End {
+    display:None;
+}
 /* ID Selector */
 #GetToKnow {
     font-size:5ch;
-    background-color:hsl(180,100%,50%)
+    background-color:hsl(180,100%,50%);
+    text-align:center;
 }
 /* Universal Selector */
 * {
@@ -14,7 +35,8 @@
 }
 /* Element Selector */
 h1 {
-    color:rgba(64, 177, 222,.7)
+    color:rgba(64, 177, 222,.7);
+    text-decoration:underline;
 }
 /* Attribute Selector */
 [title~="Pizza"] {
@@ -24,7 +46,7 @@ h1 {
 
 /* Pseudo-Class Selector */
 header:hover {
-    background-color:hsla(190,25%,50%,.9)
+    background-color:hsla(190,25%,50%,.9);
   }
 /*Selector List*/
 h2, h3, h4, h5, h6 {
