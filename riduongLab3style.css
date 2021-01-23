@@ -18,10 +18,45 @@
     height:25px;
 }
 .add_Method {
-    display:inline-block;
+    text-indent:2%;
+    
 }
 .End {
     display:None;
+}
+.summary {
+    background-color:lightblue;
+    display:inline-block;
+}
+.minecraft:active {
+    background-color:darkgreen;
+}
+.flex{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:center;  
+}
+.grid{
+    display:grid;
+    grid-column-gap:25px;
+    grid-row-gap:25px;
+    grid-template-columns: auto auto auto;
+    background-color:lightblue;
+    padding:5px;
+}
+.grid-inside {
+    border:1px solid black;
+    text-align:center;
+}
+@media screen and (max-width:800px) {
+    .head1 {
+     display:none;
+    }
+}
+@media screen and (min-width:5000px) {
+    .head2 {
+     display:none;
+    }
 }
 /* ID Selector */
 #GetToKnow {
@@ -37,6 +72,7 @@
 h1 {
     color:rgba(64, 177, 222,.7);
     text-decoration:underline;
+    position:static;
 }
 /* Attribute Selector */
 [title~="Pizza"] {
@@ -54,7 +90,8 @@ h2, h3, h4, h5, h6 {
 }
 /* Descendant Combinator */
 div header {
-    text-indent: 2%;
+    position: relative;
+    left:20px;
 }
 /* Child Combinator */
 table>caption {

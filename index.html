@@ -19,8 +19,8 @@
  </head>
   <body>
  <nav>
- <a href="https://github.com/riduong?tab=repositories">My Github Repo</a><br>
- <a href="https://canvas.ucsd.edu/courses/21783">CSE110 Canvas Link</a>
+ <a class = "head1" href="https://github.com/riduong?tab=repositories">My Github Repo</a><br>
+ <a class = "head2" href="https://canvas.ucsd.edu/courses/21783">CSE110 Canvas Link</a>
  </nav>
 
  <h1>
@@ -69,7 +69,7 @@
  </h3>
 
  <aside>
-  <p>Minecraft was created in 2009 and was founded by Markus Persson. It was founded under Mojang Specifications. <a href="https://www.minecraft.net/en-us/">The link to the minecraft website</a>
+  <p>Minecraft was created in 2009 and was founded by Markus Persson. It was founded under Mojang Specifications. <a class = "minecraft" href="https://www.minecraft.net/en-us/">The link to the minecraft website</a>
   </p>
   </aside>
 
@@ -176,6 +176,25 @@ class FirstCode {
  A random canvas that doesn't work yet since we can't use JavaScript or CSS
 </canvas>
     
+<div class="flex">
+  <div style="flex-grow: 3">Potatoes</div>
+  <div style="flex-grow: 2">Like</div>
+  <div style="flex-grow: 1">I</div>
+</div><br>
+
+<p><b>A Grid of Food</b></p><br>
+<div class="grid">
+  <div class="grid-inside">Potato</div>
+  <div class="grid-inside">Tomato</div>
+  <div class="grid-inside">Cheese</div>
+  <div class="grid-inside">Bread</div>
+  <div class="grid-inside">Pasta</div>
+  <div class="grid-inside">Curry</div>
+  <div class="grid-inside">Chilli</div>
+  <div class="grid-inside">Taco</div>
+  <div class="grid-inside">Burrito</div>
+</div><br>
+
 <form id = "FORM"> 
 <fieldset>
  <legend id= "GetToKnow">Some questions to get to know you</legend>
@@ -231,7 +250,7 @@ My favorite pizza toppings are...
 </form>
  <br>
 <details>
- <summary>Details</summary>
+ <summary class = "summary">Details</summary>
  This was a little more about me and random stuff
 </details>
 <button
